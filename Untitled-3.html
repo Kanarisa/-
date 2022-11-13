@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+        <style>
+            body {
+                color: #ff599e;
+                background-color: rgb(255, 193, 193);
+                font-family: "나눔고딕";
+                font-weight: bold;
+            }
+            </style>
+    <head>
+    <title>당신이 좋와</title>
+    </head>
+    <body>
+
+        <input type="text" id='input' onchange="곽골()">
+        <input type="button" value="버튼" onclick="곽골()"> 
+
+    <script>
+
+    function 곽골() {
+        
+        var i = Math.floor(10*Math.random())
+        alert( document.getElementById("input").value + ", "+r_text[i] );
+    }
+
+        var i = Math.floor(10*Math.random())
+        var r_text = ["죽으면않되~~~~~~~", "쵀고야", "절대도ㅔㄴ다", "우웅잘헷오", "슬퍼하지마아악", "넘ㅈ우좋하", "미안헤하지만사랑헤", "아무래도니가짱인듯", "너만잇으면되지롱", "영언히행ㅂ복하자"];
+    </script>
+
+    </body>
+</html>
